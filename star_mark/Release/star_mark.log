@@ -1,0 +1,49 @@
+﻿生成启动时间为 2018/8/20 星期一 下午 8:55:24。
+     1>项目“D:\QtSamples\star_mark\star_mark.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\QtSamples\star_mark\Win32\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\star_mark.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Moc'ing star_mark.h...
+         Uic'ing star_mark.ui...
+         Moc'ing dlgnewstar.h...
+         Rcc'ing star_mark.qrc...
+     1>RCC : warning : No resources in 'D:\QtSamples\star_mark\star_mark.qrc'.
+         
+         Uic'ing dlgnewstar.ui...
+     1>D:\QtSamples\star_mark\dlgnewstar.ui : warning : Z-order assignment: 'horizontalSpacer' is not a valid widget.
+     1>D:\QtSamples\star_mark\dlgnewstar.ui : warning : Z-order assignment: 'horizontalSpacer_2' is not a valid widget.
+     1>D:\QtSamples\star_mark\dlgnewstar.ui : warning : Z-order assignment: 'horizontalSpacer_3' is not a valid widget.
+     1>D:\QtSamples\star_mark\dlgnewstar.ui : warning : Z-order assignment: 'horizontalSpacer_4' is not a valid widget.
+     1>D:\QtSamples\star_mark\dlgnewstar.ui : warning : Z-order assignment: 'horizontalSpacer_2' is not a valid widget.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.6\include /I.\GeneratedFiles\Release /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DataManager.cpp dlgnewstar.cpp GeneratedFiles\Release\moc_dlgnewstar.cpp GeneratedFiles\Release\moc_star_mark.cpp main.cpp star_mark.cpp
+         DataManager.cpp
+         dlgnewstar.cpp
+         moc_dlgnewstar.cpp
+         moc_star_mark.cpp
+         main.cpp
+         star_mark.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.6\include /I.\GeneratedFiles\Release /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_star_mark.cpp
+         qrc_star_mark.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\QtSamples\star_mark\Win32\Release\\star_mark.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.6\lib qtmain.lib QtCore4.lib QtGui4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\star_mark.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\QtSamples\star_mark\Win32\Release\star_mark.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\QtSamples\star_mark\Win32\Release\star_mark.lib" /MACHINE:X86 Release\DataManager.obj
+         Release\dlgnewstar.obj
+         Release\qrc_star_mark.obj
+         Release\moc_dlgnewstar.obj
+         Release\moc_star_mark.obj
+         Release\main.obj
+         Release\star_mark.obj
+         star_mark.vcxproj -> D:\QtSamples\star_mark\Win32\Release\star_mark.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\QtSamples\star_mark\Win32\Release\\star_mark.exe;#1" /manifest Release\star_mark.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\star_mark.unsuccessfulbuild”。
+         正在对“Release\star_mark.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\QtSamples\star_mark\star_mark.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.47
