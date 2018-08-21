@@ -1,0 +1,44 @@
+﻿生成启动时间为 2018/8/21 星期二 下午 12:13:14。
+     1>项目“D:\QtSamples\Voice\Voice.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\QtSamples\Voice\Win32\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\Voice.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Moc'ing voice.h...
+         Uic'ing voice.ui...
+         Moc'ing dlgnewvoice.h...
+         Rcc'ing voice.qrc...
+     1>RCC : warning : No resources in 'D:\QtSamples\Voice\voice.qrc'.
+         
+         Uic'ing dlgnewvoice.ui...
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.6\include /I.\GeneratedFiles\Release /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DataManager.cpp dlgnewvoice.cpp GeneratedFiles\Release\moc_dlgnewvoice.cpp GeneratedFiles\Release\moc_voice.cpp main.cpp voice.cpp
+         DataManager.cpp
+         dlgnewvoice.cpp
+         moc_dlgnewvoice.cpp
+         moc_voice.cpp
+         main.cpp
+         voice.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.6\include /I.\GeneratedFiles\Release /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_voice.cpp
+         qrc_voice.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\QtSamples\Voice\Win32\Release\\Voice.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.6\lib qtmain.lib QtCore4.lib QtGui4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Voice.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\QtSamples\Voice\Win32\Release\Voice.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\QtSamples\Voice\Win32\Release\Voice.lib" /MACHINE:X86 Release\DataManager.obj
+         Release\dlgnewvoice.obj
+         Release\qrc_voice.obj
+         Release\moc_dlgnewvoice.obj
+         Release\moc_voice.obj
+         Release\main.obj
+         Release\voice.obj
+         Voice.vcxproj -> D:\QtSamples\Voice\Win32\Release\Voice.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\QtSamples\Voice\Win32\Release\\Voice.exe;#1" /manifest Release\Voice.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\Voice.unsuccessfulbuild”。
+         正在对“Release\Voice.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\QtSamples\Voice\Voice.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.52
